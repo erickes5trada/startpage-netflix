@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html, body, .cover{
+    height: 100%;
+}
+
+.cover{
+    background: url(../img/MX-es-20210208-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+
+.filter{
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+    opacity: .3;
+}
+
+.logo img{
+    width: 170px;
+}
+
+section.cabecera{
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 3;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.8)0%,rgba(0,0,0,0)60%,rgba(0,0,0,0.8)100%);
+}
