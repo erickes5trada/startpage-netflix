@@ -55,6 +55,7 @@ div.logo{
 
 div.login{
     float: right;
+
 }
 
 /*EStilo al boton del login*/
@@ -62,15 +63,19 @@ div.login > span{
     padding: 7px 17px;
     background-color: #e50914;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 /*Elementos centro */
 .tituloP{
+    margin-left: 20%;
+    margin-top: -3%;
     text-align: center;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+
 }
 
 h1{
@@ -80,10 +85,12 @@ h1{
 
 h2{
     font-size: 1.625rem;
+    font-weight: 400;
 }
 
 h3{
     font-size: 1.2rem;
+    font-weight: 400;
 }
 
 /*Se da estilo a input y boton*/
@@ -110,25 +117,32 @@ button{
     font-weight: 600;
     font-size: 24px;
     letter-spacing: 1px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #f00a15;
 }
 
 label{
-    color: #4f4f4f;
+    color: #636363;
     position: absolute;
-    left: 36%;
-    top: 73.7%;
-    transition: .5s;
+    left: 29%;
+    top: 67.5%;
+    transition: .3s;
     pointer-events: none;
     
 }
 
  .tituloP input:focus ~ label,
  .tituloP input:valid ~ label{
-    top: 71.2%;
+    top: 65.2%;
     font-size: 12px;
-    left: 35.5%;
+    left: 29%;
     font-weight: 700;
 }
+
+
 
 
 
