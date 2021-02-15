@@ -11,7 +11,8 @@ html, body, .cover{
 
 /*Filtros y fondos en parte superior*/
 .cover{
-    background: url(../img/MX-es-20210208-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background: no-repeat  center/100% url(../img/MX-es-20210208-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  
 }
 
 .filter{
@@ -85,17 +86,53 @@ h3{
     font-size: 1.2rem;
 }
 
-.tituloP input{
+/*Se da estilo a input y boton*/
+
+.email{
     height: 70px;
     width: 500px;
-    margin-top: 8px;
+    margin-top: 7px;
     margin-bottom: 3px;
     border-radius: 2px 0px 0px 2px;
-    border: solid 1px #5659e9;
+   border: none;
     padding-left: 11px;
     color: #000;
 }
 
-.btnStart{
+button{
+   margin-top: 7px;
     background-color: #e50914;
+    padding: 22px;
+    padding-top: 15px;
+    padding-bottom: 23px;
+    margin-left: -2.9px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 1px;
 }
+
+label{
+    color: #4f4f4f;
+    position: absolute;
+    left: 36%;
+    top: 73.7%;
+    transition: .5s;
+    pointer-events: none;
+    
+}
+
+ .tituloP input:focus ~ label,
+ .tituloP input:valid ~ label{
+    top: 71.2%;
+    font-size: 12px;
+    left: 35.5%;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
