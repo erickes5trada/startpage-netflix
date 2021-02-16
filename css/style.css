@@ -156,6 +156,9 @@ section.tv, .descarga, .disfruta, .preguntas, footer{
 .contenido{
     margin: auto;
     width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .izquierda{
@@ -179,7 +182,7 @@ section.tv, .descarga, .disfruta, .preguntas, footer{
     width: 39%;
 }
 
-.tv img{
+.contenido img{
     width: 100%;
     height: auto;
     border: 0;
@@ -187,13 +190,13 @@ section.tv, .descarga, .disfruta, .preguntas, footer{
     z-index: 2;
 }
 
-.tv h2{
+.tv h2, .disfruta h2{
     font-weight: bold;
     font-size: 50px;
     line-height: 150px;
 }
 
-.tv p{
+.tv p, .disfruta p{
     font-size: 25px;
     font-weight: 400;
 }
@@ -206,8 +209,78 @@ section.tv, .descarga, .disfruta, .preguntas, footer{
 }
 /*TV*/
 
+/*DESCARGA*/
+
+.descarga h2{
+    font-weight: bold;
+    font-size: 50px;
+  
+}
+
+.descarga p{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.tarjeta{
+    position: relative;
+    transform: translate(-65px,-41px);
+}
+
+.tarjetaInt, .portada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetaInt{
+ 
+    width: 59%;
+    margin: auto;
+    border: #434343 2px solid;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: -20px;
+    padding-right: -20px;
+    position: relative;
+    z-index: 2;
+    background: #000;
+}
+
+.portada{
+    width: 80%;
+}
+
+.gif img{
+    width: 50%;
+}
+
+.gif{
+    text-align: center;
+}
+
+.imgPortada img{
+    width: 54px;
+    margin-right: 12px;
+}
+
+.textoPortada p{
+    font-size: 17px;
+}
 
 
+/*DESCARGA*/
+
+
+
+/*DISFRUTA*/
+.disfruta video{
+    position: absolute;
+    transform: translate(-347px, 38px);
+    width: 263px;
+    z-index: 1;
+}
+/*DISFRUTA*/
 
 
 
